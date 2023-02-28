@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#Out {
+    padding: 10px 0;
+}
+
+.sec_o {
+    padding: 80px;
+}
+
+.sec_o_r {
+    height: 500px;
+    width: 500px;
+}
+
+.sec_o_l {
+    width: 600px;
+    position: relative;
+}
+
+.sec_o {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec_o_h3 {
+    padding: 20px 0;
+}
+
+.sec_o_p {
+    padding: 0 0 20px 0;
+    text-align: start;
+    font-size: 12px;
+}
+
+button {
+    border: 1px solid rgba(226, 171, 63, 1);
+    padding: 5px 20px;
+    background-color: #fff;
+    margin: 30px 100px 0 0;
+}
+
+.sec_o_img {
+    height: 750px;
+    width: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.prev1 {
+    color: rgb(7, 7, 6);
+    position: absolute;
+    top: 300px;
+    z-index: 4;
+    cursor: pointer;
+}
+.next1 {
+    color: rgb(14, 13, 11);
+    position: absolute;
+    right: 0;
+    top: 300px;
+    z-index: 4;
+    cursor: pointer;
+}
+    
+
